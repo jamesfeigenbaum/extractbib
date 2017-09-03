@@ -1,11 +1,11 @@
 Package: extractbib
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Create Minimal bibtex Library File For Article
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: James Feigenbaum
+Maintainer: James Feigenbaum <james.feigenbaum@gmail.com>
+Description: A simple package to create minimal a `bibtex` library file for an article. 
+    Some journals require `tex` and `bib` files with submissions. However, I have only one *master* `bib` file. That file currently contains 3543 references. Rather than send all of that to the journal to help typeset my manuscript, I only want to send a `bib` file with the references included in my article. This script does that.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
